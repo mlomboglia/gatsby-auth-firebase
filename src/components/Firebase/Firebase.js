@@ -6,7 +6,6 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 
-console.log(process.env.GATSBY_FIREBASE_API_KEY)
 const firebaseConfig = {
   apiKey: process.env.GATSBY_FIREBASE_API_KEY,
   authDomain: process.env.GATSBY_FIREBASE_AUTH_DOMAIN,
