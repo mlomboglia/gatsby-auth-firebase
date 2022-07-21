@@ -9,4 +9,4 @@ export const wrapRootElement = ({ element }) => (
     <AuthProvider >
         {element}
     </AuthProvider>
-);
+); 
