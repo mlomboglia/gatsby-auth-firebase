@@ -1,8 +1,6 @@
 import { initializeApp } from "firebase/app";
 import {
-  GoogleAuthProvider,
   getAuth,
-  signInWithPopup,
   onAuthStateChanged,
 } from "firebase/auth";
 
@@ -25,16 +23,4 @@ if (typeof window !== "undefined") {
   auth = getAuth(app);
 }
 
-const googleProvider = new GoogleAuthProvider();
-
-const signInWithGoogle = async () => {
-  try {
-    const res = await signInWithPopup(auth, googleProvider);
-    return res;
-  } catch (err) {
-    console.error(err);
-    alert(err.message);
-  }
-};
-
-export { auth, signInWithGoogle, onAuthStateChanged };
+export { auth, onAuthStateChanged };
