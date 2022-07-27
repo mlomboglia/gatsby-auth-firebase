@@ -6,14 +6,13 @@
 
 # Secure your Gatsby app using Firebase authentication
 
-🚀 Here a [live demo](https://eloquent-raindrop-845523.netlify.app) of the site.
-
-Description available in Medium Post:
-https://medium.com/better-programming/build-a-gatsby-authentication-flow-with-firebase-72b9514f6c9b
+* Powered by [Gatsby](https://github.com/gatsbyjs/gatsby)
+* 🚀 [Live demo](https://eloquent-raindrop-845523.netlify.app)
+* [Complete Tutorial](https://medium.com/better-programming/build-a-gatsby-authentication-flow-with-firebase-72b9514f6c9b)
 
 ---
 
-# TL;DR
+## Features
 This guide will walk you through how to set up an authentication flow using Firebase in your Gatsby application, and deploying it to Netlify hosting. After following this guide, you will have a working Gatsby app complete with:
 
 - Fully fledged sign-in and sign-up flows.
@@ -22,3 +21,5 @@ This guide will walk you through how to set up an authentication flow using Fire
 - A secure user profile page.
 - Deployment to Netlify
 - A working demo app is available here. Full source code provided.
+
+
