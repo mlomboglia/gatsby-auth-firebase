@@ -2,6 +2,8 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/mlomboglia/gatsby-auth-firebase)](https://github.com/mlomboglia/gatsby-auth-firebase/issues)
 
+![Alt Gatsby + Firebse + Netlify](/src/assets/gatsby-firebase.jpg)
+
 **Gatsby Authentication Flow with Firebase 🌲**
 
 Description available in Medium Post:
